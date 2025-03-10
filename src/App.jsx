@@ -1,11 +1,15 @@
 import './App.css'
-import RenderingList from './components/RenderingList'
+// import RenderingList from './components/RenderingList'
+import State from './components/State'
+// import Form from './components/Form'
 
 function App() {
 
   return (
     <div>
-      <RenderingList />
+      {/* <RenderingList /> */}
+      <State />
+      {/* <Form /> */}
     </div>
   )
 }
